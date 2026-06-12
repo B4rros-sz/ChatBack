@@ -19,7 +19,7 @@ import os
 load_dotenv()
 
 # Define qual versão da IA vamos usar. O modelo "flash" é rápido e ideal para chatbots.
-MODELO = "gemini-3.1-flash-lite"
+MODELO = "gemini-2.5-flash-lite"
 
 # Aqui definimos o "Prompt de Sistema". É a personalidade e as regras que o bot deve seguir.
 instrucoes = """
